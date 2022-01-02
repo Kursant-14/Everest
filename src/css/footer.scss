@@ -1,0 +1,17 @@
+.footer{
+  padding: 50px 0;
+  background-color: #061B28;
+  &__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__left{
+    @include text($Roboto,12px,normal,150%);
+    color: #FCFCFC;
+  }
+  &__right{
+    @include text($Roboto,12px,normal,150%);
+    color: #FCFCFC;
+  }
+}

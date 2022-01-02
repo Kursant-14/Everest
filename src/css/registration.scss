@@ -1,0 +1,55 @@
+.registration{
+  padding: 80px 0;
+  background: #061B28;
+  &__title{
+    @include text($Oswald,52px,600,115%);
+    color: #FCFCFC;
+  }
+  &__subtitle{
+    @include text($Roboto,14px,normal,140%);
+    color: #FCFCFC;
+  }
+  &__desc{
+    @include text($Roboto,18px,normal,150%);
+    color: #FCFCFC;
+    margin: 40px 0 45px;
+  }
+  input{
+    @include text($Roboto,16px,normal,150%);
+    color: #7E8386;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #45545E;
+  }
+
+  form{
+    width: 50%;
+  }
+
+  &__btn{
+    margin: 45px 0 25px;
+    border: transparent;
+    @include text($Roboto,16px,500,140%);
+    color: #FCFCFC;
+    width: 100%;
+    height: 50px;
+    background: #EC5118;
+    &:hover{
+      background-color: #d0b359;
+      transition: 500ms;
+      cursor: pointer;
+    }
+  }
+  .wrapper{
+    column-gap: 60px;
+    display: flex;
+  }
+  &__image{
+    width: 50%;
+  }
+  img{
+    width: 100%;
+  }
+}

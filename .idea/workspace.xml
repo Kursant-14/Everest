@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="02723ff0-5d60-4308-826e-a27712a1828d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Everest" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="22bu1rYINg7XfxCaaVGuwl9QSM5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02723ff0-5d60-4308-826e-a27712a1828d" name="Default Changelist" comment="" />
+      <created>1640118396294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640118396294</updated>
+      <workItem from="1640118401373" duration="28000" />
+      <workItem from="1640118474984" duration="347000" />
+      <workItem from="1640119222811" duration="182000" />
+      <workItem from="1640119862864" duration="17000" />
+      <workItem from="1640119904164" duration="23403000" />
+      <workItem from="1640179625893" duration="6831000" />
+      <workItem from="1640193348285" duration="3199000" />
+      <workItem from="1640208484857" duration="6175000" />
+      <workItem from="1640292483112" duration="28806000" />
+      <workItem from="1640413934330" duration="12940000" />
+      <workItem from="1640737362531" duration="7962000" />
+      <workItem from="1640746765516" duration="70000" />
+      <workItem from="1640746903176" duration="3812000" />
+      <workItem from="1640757498732" duration="608000" />
+      <workItem from="1640812324062" duration="787000" />
+      <workItem from="1640818733702" duration="47000" />
+      <workItem from="1640818896522" duration="7268000" />
+      <workItem from="1640827854728" duration="808000" />
+      <workItem from="1640910256091" duration="6987000" />
+      <workItem from="1640932343662" duration="3068000" />
+      <workItem from="1640988899797" duration="5328000" />
+      <workItem from="1641000008644" duration="1096000" />
+      <workItem from="1641001156815" duration="8999000" />
+      <workItem from="1641017852017" duration="2316000" />
+      <workItem from="1641070121096" duration="7179000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1640824834413">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1640824834413" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1640208338930">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1640208338930" />
+    <state x="277" y="119" key="EditFileWatcherDialog" timestamp="1640118551746">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="277" y="119" key="EditFileWatcherDialog/0.0.1280.680@0.0.1280.680" timestamp="1640118551746" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1641009403979">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1641009403979" />
+  </component>
+</project>

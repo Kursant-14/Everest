@@ -1,0 +1,89 @@
+@import "../fonts/oswald/stylesheet.css";
+@import "../fonts/Roboto/stylesheet.css";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.container{
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding-top: 31px;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 13px;
+  height: 16px;
+}
+.swiper-button-next,
+.swiper-button-prev::after{
+  color: #061B28;
+  font-size: 40px;
+}
+
+
+.swiper-button-next, .swiper-button-prev {
+  position: absolute;
+  top: 80%;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+   left: 75%;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+ right: 20%;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 20px;
+}
+
+
+$Roboto: Roboto, sans-serif;
+$Oswald: Oswald, sans-serif;
+
+@mixin text ($ff,$fz,$fw,$lh){
+  font-family: $ff;
+  font-size: $fz;
+  font-weight: $fw;
+  line-height: $lh;
+}
+
+
+@import "header";
+@import "tours";
+@import "popular";
+@import "types";
+@import "blog";
+@import "registration";
+@import "contacts";
+@import "footer";
+@import "overlay";
+@import "media";

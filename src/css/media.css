@@ -1,0 +1,17 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,6 @@
+
+.icon-search:before { content: '\e800'; } /* '' */
+.icon-user:before { content: '\e801'; } /* '' */
+.icon-facebook:before { content: '\f300'; } /* '' */
+.icon-twitter:before { content: '\f309'; } /* '' */
+.icon-instagram:before { content: '\f32d'; } /* '' */

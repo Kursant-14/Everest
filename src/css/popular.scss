@@ -1,0 +1,79 @@
+.popular{
+  padding-bottom: 205px;
+  position: relative;
+  &__title{
+    @include text($Oswald,52px,600,115%);
+    color: #061B28;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  &__card{
+    background: url("../images/cards/1.jpg") bottom/cover no-repeat;
+    padding: 42px 0 38px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    &::before{
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: url("../images/mountain/blur.png") center/cover no-repeat;
+    }
+  }
+  &__content{
+    z-index: 2;
+    margin-left: 35px;
+    &_text{
+      @include text($Roboto,16px,normal,115%);
+      color: #061B28;
+      margin-bottom: 137px;
+      margin-left: 10px;
+      position: relative;
+      &::before{
+        content: url("../images/cards/point.png");
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: -17px;
+        position: absolute;
+
+      }
+      &::after{
+        content: url("../images/cards/mark.png");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: rgba(252, 252, 252, 0.4);
+        top: 0;
+        right: -52px;
+        position: absolute;
+
+      }
+    }
+    &__metre{
+      @include text($Roboto,18px,normal,115%);
+      margin: 10px 0;
+    }
+    &_title{
+      @include text($Oswald,26px,500,115%);
+      color: #061B28;
+    }
+    &_level{
+      @include text($Oswald,18px,normal,115%);
+      color: #061B28;
+    }
+  }
+  .mountain-two{
+    background: url("../images/cards/2.jpg") bottom/cover no-repeat;
+  }
+  .mountain-three{
+    background: url("../images/cards/3.jpg") bottom/cover no-repeat;
+  }
+  .mountain-four{
+    background: url("../images/cards/4.jpg") bottom/cover no-repeat;
+  }
+}

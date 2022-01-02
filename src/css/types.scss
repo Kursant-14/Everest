@@ -1,0 +1,56 @@
+.types{
+  padding: 100px 0;
+  background: url("../images/types/bg.jpg") bottom/cover no-repeat;
+  &__title{
+    text-align: center;
+    @include text($Oswald,52px,600,115%);
+    color: #FCFCFC;
+  }
+  &__subtitle{
+    text-align: center;
+    @include text($Roboto,18px,normal,140%);
+    color: #FCFCFC;
+    margin: 25px 0 62px;
+  }
+  table{
+    border-collapse: collapse;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  td {
+    @include text($Roboto,22px,500,140%);
+    color: #FCFCFC;
+    border-bottom: 1px solid #45545E;
+    width:  230px;
+    height: 66px;
+    text-align: center;
+  }
+  tr {
+    border: none;
+  }
+  .title{
+    @include text($Roboto,18px,normal,140%);
+    color: #A7AEB4;
+  }
+  .btn{
+    @include text($Roboto,16px,500,19px);
+    width: 170px;
+    margin-top: 50px;
+    color: #FCFCFC;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #FCFCFC;
+    &:hover{
+      cursor: pointer;
+      background: #ffffff80;
+      transition: 500ms;
+      border: transparent;
+    }
+  }
+  .center{
+    display: flex;
+    justify-content: center;
+  }
+}

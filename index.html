@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/fonts/css/fontello.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__row">
+            <nav class="header__nav">
+                <img class="header__logo" src="./src/images/mountain/MOUNTAIN.png" alt="">
+                <ul class="header__menu">
+                    <li class="header__list"><a class="header__list-link" href="">О нас</a></li>
+                    <li class="header__list"><a class="header__list-link" href="">Туры</a></li>
+                    <li class="header__list"><a class="header__list-link" href="">Подбор тура</a></li>
+                    <li class="header__list"><a class="header__list-link" href="">Блог</a></li>
+                    <li class="header__list"><a class="header__list-link" href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header__icons">
+                <span class="header__number"><a class="header__number_link" href="tel: 8 (800) 777-33-25">8 (800) 777-33-25</a></span>
+                <a href="" class="header__icons_link"><i class="icon-search"></i></a>
+                <a href="" class="header__icons_link"><i class="icon-user"></i></a>
+            </div>
+        </div>
+        <div class="burger">
+            <span class="burger_line"></span>
+        </div>
+
+    </div>
+    <div class="header__center">
+        <h1 class="header__title">Эверест</h1>
+        <button class="btn" type="button">Заявка</button>
+    </div>
+</header>
+<main>
+    <section class="tours">
+        <div class="container">
+            <div class="tours__content">
+                <div  class="tours__col_one">
+                    <h2 class="tours__col_one_title">Туры с восхождением на вершины мира</h2>
+                    <p class="tours__col_one_desc">Мы являемся экспертами в организации  альпинистских туров для опытных
+                        <br> альпинистов и для новичков. Вы можете <br> доверить нам полную организацию <br> вашего приключения от А до Я и быть
+                        <br> уверенными в качестве и безопасности
+                        <br> восхождения.</p>
+                    <p class="tours__col_one_desc-second">Наша компания предоставляет все <br> необходимое: консультацию по выбору
+                        <br>тура, перелет, визу, бронирование <br> проживания, питание, оборудование, <br> необходимое для восхождения,
+                        <br> опытных гидов, полное сопровождение.</p>
+                </div>
+                <div class="tours__col_second">
+                    <img  class="tours__col_second-image" src="./src/images/mountain/map.png" alt="map">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="popular">
+        <div class="container">
+            <h2  class="popular__title">Популярные туры</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide popular__card">
+                        <div class="popular__content">
+                            <p class="popular__content_text">Россия</p>
+                            <h3 class="popular__content_title">Белуха</h3>
+                            <p class="popular__content__metre">4506 м | <span class="popular__content_days">12 дней | </span>от 45000 &#x20BD;</p>
+                            <p class="popular__content_level"><ion-icon name="reload-circle-outline"></ion-icon> Средний уровень</p>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide popular__card mountain-two">
+                        <div class="popular__content">
+                            <p class="popular__content_text">Россия</p>
+                            <h3 class="popular__content_title">Эльбрус</h3>
+                            <p class="popular__content__metre">5642 м | <span class="popular__content_days">10 дней | </span>от 25000 &#x20BD;</p>
+                            <p class="popular__content_level"><ion-icon name="reload-circle-outline"></ion-icon> Средний уровень</p>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide popular__card mountain-three">
+                        <div class="popular__content">
+                            <p class="popular__content_text">Танзания</p>
+                            <h3 class="popular__content_title">Килиманджаро</h3>
+                            <p class="popular__content__metre">4506 м | <span class="popular__content_days">12 дней | </span>от 45000 &#x20BD;</p>
+                            <p class="popular__content_level"><ion-icon name="reload-circle-outline"></ion-icon> Простой уровень</p>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide popular__card mountain-four">
+                        <div class="popular__content">
+                            <p class="popular__content_text">Пик Ленина</p>
+                            <h3 class="popular__content_title">Киргизия</h3>
+                            <p class="popular__content__metre">7134 м | <span class="popular__content_days">25 дней | </span>от 70000 &#x20BD;</p>
+                            <p class="popular__content_level"><ion-icon name="reload-circle-outline"></ion-icon> Сложный уровень</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <section class="types">
+        <h1  class="types__title">Россия</h1>
+        <p  class="types__subtitle">Более 15 туров для <br> альпинистов всех уровней</p>
+        <div class="container">
+            <table>
+                <tr>
+                    <td class="title">Вершина</td>
+                    <td class="title">Высота</td>
+                    <td class="title">Уровень</td>
+                    <td class="title">Стоимость</td>
+                </tr>
+                <tr>
+                    <td>Эльбрус</td>
+                    <td>5642 м</td>
+                    <td>Средний</td>
+                    <td>от 25 000 &#x20BD;</td>
+                </tr>
+                <tr>
+                    <td>Казбек</td>
+                    <td>5033 м</td>
+                    <td>Сложный </td>
+                    <td>от 30 000 &#x20BD;</td>
+                </tr>
+                <tr>
+                    <td>Белуха</td>
+                    <td>4506 м</td>
+                    <td>Простой</td>
+                    <td>от 20 000 &#x20BD;</td>
+                </tr>
+                <tr>
+                    <td>Дыхтау</td>
+                    <td>5204 м</td>
+                    <td>Сложный</td>
+                    <td>от 40 000 &#x20BD;</td>
+                </tr>
+            </table>
+            <div class="center">
+                <button class="btn" type="button">Смотреть все</button>
+            </div>
+        </div>
+    </section>
+    <section class="blog">
+        <div class="container">
+            <h1 class="blog__title">Блог</h1>
+            <div class="wrapper">
+                <div  class="blog__col first">
+                    <div class="blog__news">
+                        <span class="blog__col_date">15 января, 2020</span>
+                        <p class="blog__col_desc">Как подготовиться к первому восхождению на вершину</p>
+                        <hr>
+                    </div>
+                    <div class="blog__news">
+                        <span class="blog__col_date">10 января, 2020</span>
+                        <p class="blog__col_desc">Фестиваль Alpika Freeski Аlpindustria Fest Красная Поляна 13-16 февраля</p>
+                        <hr>
+                    </div>
+                    <div class="blog__news">
+                        <span class="blog__col_date">20 декабря, 2019</span>
+                        <p class="blog__col_desc">Особенности альпинизма на Камчатке. <br> Все о Ключевой Сопке</p>
+                        <hr>
+                    </div>
+                    <div class="blog__news">
+                        <span class="blog__col_date">15 декабря, 2019</span>
+                        <p class="blog__col_desc">Что происходит с человеком на высоте более 3000 метров?</p>
+                        <hr>
+                    </div>
+                    <div class="blog__news">
+                        <span class="blog__col_date">15 декабря, 2019</span>
+                        <p class="blog__col_desc">Что происходит с человеком на высоте более 3000 метров?</p>
+                        <hr>
+                    </div>
+                    <button class="button-bottom" type="button">Читать все новости</button>
+
+                </div>
+                <div class="blog__col">
+                    <img class="blog__col_img" src="./src/images/blog/image.jpg" alt="blog-image">
+                    <p class="blog__col_dates">15 января, 2020</p>
+                    <h3 class="blog__col_subtitle">Как подготовиться к первому восхождению на вершину</h3>
+                    <p class="blog__col_description">Перед тем, как отправиться на покорение вершины горы, нужно не только привести          в порядок свою физическую форму, но и тренировать выносливость, дыхательную и сердечно-сосудистую системы. Именно на них приходится максимальная нагрузка на высоте. Поэтому из-за недостаточной подготовки вы можете сойти на полпути. Чтобы этого не случилось, занимайтесь плаванием, бегом, велосипедом и кардиотренировками.
+                        <br>
+                        <br>Как должны проходить тренировки? В первую очередь, тренировки должны проходить постоянно, эффективно и интенсивно. Кроме того, нагрузка постепенно должна увеличиваться. В случае с бегом обязательно делать это с учетом пульса. Грамотно спланированный бег позволит не только сбросить вес, но и укрепит сердечную мышцу. При беге с высоким пульсом вы позволите организму привыкнуть к недостатку кислорода — то, с чем обязательно встретитесь в горах. Для укрепления физической подготовки и повышения выносливости также бегайте в горку или в быстром темпе поднимайтесь по лестницам. И не забудьте отдохнуть за неделю до путешествия!</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="registration">
+        <div class="container">
+            <div class="wrapper">
+                <form>
+                    <h1 class="registration__title">Нужна помощь <br>с выбором тура?</h1>
+                    <p class="registration__desc">Заполните форму, наш менеджер свяжется с вами <br> в ближайшее время и подберет подходящий тур</p>
+                    <div>
+                        <label>
+                            <input class="registration__name" type="text" placeholder="Имя">
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input class="registration__number" type="tel" placeholder="Телефон">
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input class="registration__mail" type="email" placeholder="E-mail">
+                        </label>
+                    </div>
+                    <button class="registration__btn" type="submit">Отправить</button>
+                    <p class="registration__subtitle">Нажимая кнопку, вы соглашаетесь с условиями обработки <br>персональных данных</p>
+                </form>
+                <div class="registration__image">
+                    <img src="./src/images/registration/landscapev.jpg" alt="landscape">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="contacts">
+        <div class="container">
+            <div class="contacts__row">
+                <div class="contacts__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253002615!2d30.320858715440387!3d59.93871916905499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5MTE4Ng!5e0!3m2!1sru!2scz!4v1640746084206!5m2!1sru!2scz" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="contacts__contact">
+                    <h2 class="contacts__title">Контакты</h2>
+                    <ul class="contacts__list">
+                        <li class="contacts__list_items mini-title">Адрес:</li>
+                        <li class="contacts__list_items">Санкт-Петербург, <br>ул. Большая Конюшенная, 19</li>
+                        <li class="contacts__list_items mini-title">Телефон:</li>
+                        <li class="contacts__list_items">8 (800) 777-33-25</li>
+                        <li class="contacts__list_items mini-title">E-mail:</li>
+                        <li class="contacts__list_items">info@mountain.ru</li>
+                        <li class="contacts__list_items mini-title">Социальные сети:
+                            <div class="icons">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                                <ion-icon name="logo-instagram"></ion-icon>
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__row">
+            <p class="footer__left">Maroon <ion-icon name="disc-outline"></ion-icon> 2020 Все права защищены</p>
+            <img src="./src/images/mountain/MOUNTAIN.png" alt="img">
+            <p class="footer__right">Политика конфиденциальности</p>
+        </div>
+
+    </div>
+</footer>
+
+<div class="overlay">
+    <div class="window">
+        <div class="window__close"></div>
+        <div class="window__form">
+            <div class="window__form_title">Заполните форму и мы свяжемся с вами.
+            </div>
+            <form class="window__form_forms">
+                <input type="text" placeholder="Ваше Имя">
+                <input type="number" placeholder="Ваш телефон">
+                <input type="email" placeholder="Email">
+
+                <textarea  class="window__form_text" name="" id=""></textarea>
+
+                <div class="window__form_checkbox">
+                    <input type="checkbox">
+                    <span>Я согласен с политикой конфедициальности</span>
+                </div>
+                <button class="btn send" type="submit">Оставить заявку</button>
+                
+            </form>
+
+        </div>
+        <div class="window__thanks">
+            <div class="thanks__top">
+                Спасибо за ваш заказ
+            </div>
+            <div class="thanks__bot">
+                <p>Скоро мы с Вами свяжемся</p>
+                <p>С Уважением <br> команда "Эверест"</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="src/js/jquery-3.6.0.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="src/js/main.js"></script>
+</body>
+</html>

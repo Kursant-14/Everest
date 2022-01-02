@@ -1,0 +1,34 @@
+.contacts{
+  padding: 140px 0;
+  &__row{
+    display: flex;
+    column-gap: 70px;
+  }
+  &__map{
+    width: 55%;
+  }
+  &__title{
+    @include text($Oswald,52px,600,115%);
+    color: #061B28;
+    margin-bottom: 60px;
+  }
+  &__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+    &_items{
+      @include text($Roboto,22px,500,150%);
+      color: #061B28;
+    }
+  }
+
+  .mini-title{
+    @include text($Roboto,18px,normal,150%);
+    color: #061B28;
+  }
+  .icons{
+    margin-top: 10px;
+    display: flex;
+    column-gap: 33px;
+  }
+}

@@ -1,0 +1,28 @@
+.tours{
+  padding: 140px 0;
+  &__content{
+    display: flex;
+    column-gap: 39px;
+    align-items: center;
+  }
+  &__col_one{
+    width: 45%;
+    &_title{
+      @include text($Oswald,52px,600,115%);
+      color: #061B28;
+    }
+    &_desc{
+      @include text($Roboto,18px,normal,150%);
+
+      color: #061B28;
+      margin: 50px 0 20px;
+      &-second{
+        @include text($Roboto,18px,normal,150%);
+        color: #061B28;
+      }
+    }
+  }
+  &__col_second{
+    width: 55%;
+  }
+}
